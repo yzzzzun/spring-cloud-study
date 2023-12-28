@@ -52,4 +52,4 @@ eureka:
 - spring.application.name : 마이크로 서비스의 고유한 아이디, application name 지정
 - eureka client → 유레카 서버로만 기동되면 되기때문에 설정을 꺼줌
     - eureka.client.register-with-eureka : true(default) → 유레카 서버에 등록한다
-    - eureka.client.fetch-registry : true(default) → 유레카 서버로부터 정보를 주고받는다
+    - eureka.client.fetch-registry : true(default) → 유레카 서버로부터 인스턴스 정보를 주기적으로 가져올 것인지 설정
